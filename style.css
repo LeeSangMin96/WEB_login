@@ -1,0 +1,52 @@
+hr{
+    border:solid 2px lightgray;
+}
+h1{
+    text-align: center;
+}
+input {
+    width: 170px;
+    height:12px;
+    padding: 10px 20px;
+    margin: 5px 0;
+}
+input[type="text"] {
+    border: solid 2px rgb(240, 196, 240);
+}
+input[type="text"]:focus { 
+    border: solid 2px plum; 
+}
+input[type="password"] { 
+    border: solid 2px rgb(240, 196, 240); 
+}
+input[type="password"]:focus { 
+    border: solid 2px plum; 
+}
+textarea {
+    width: 430px;
+    height: 200px;
+    padding: 10px;
+    border: solid 2px rgb(240, 196, 240);
+    border-radius: 5px;
+}
+select {
+    width: 170px;
+    height: 40px;
+    border: solid 2px white;
+    background-color: rgb(240, 196, 240);
+    border-radius: 5px;
+    padding: 5px;
+    color:white;
+}
+button{
+    background-color: rgb(240, 196, 240);
+    border:solid 2px rgb(240, 196, 240);
+    border-radius: 5px;
+    width:100px;
+    height:35px;
+    color:white;
+    margin-left: 180px;
+}
+button:hover{
+    background: rebeccapurple;
+}
